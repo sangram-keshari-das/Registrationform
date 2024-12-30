@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration_Details</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="center">👉Course Registration Form👈</h1>
+        <form action="response.html">
+            <div class="box">
+            <fieldset>
+                <legend>Personal details</legend>
+            <table>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text" placeholder="Ex:Sangram" required><p>Enter your name</p><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Surename</label></td>
+                    <td><input type="text" placeholder="Ex:Das"><p>Enter surename</p><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Mobile number</label></td>
+                    <td><input type="tel" placeholder="Ex:9178456878" required><p>Enter mobile number</p><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Primary Email</label></td>
+                    <td><input type="email" placeholder="Ex:abc@gmail.com" required><p>Enter pri. email</p><img class="valid" src="https://static.vecteezy.com/system/resources/previews/016/746/182/non_2x/green-check-mark-icon-symbol-logo-in-a-circle-tick-symbol-green-color-illustration-free-vector.jpg" alt=""><img class="invalid" src="https://media.istockphoto.com/id/1407160246/vector/danger-triangle-icon.jpg?s=612x612&w=0&k=20&c=BS5mwULONmoEG9qPnpAxjb6zhVzHYBNOYsc7S5vdzYI=" alt=""><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Secondary Email</label></td>
+                    <td><input type="email" placeholder="Ex:abc@gmail.com"><p>Enter sec. email</p><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" placeholder="min 5 characters" required><p>Enter password</p><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Confirm Password</label></td>
+                    <td><input type="password" placeholder="min 5 characters" required><p>Enter confirm password</p><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">DOB</label></td>
+                    <td><input type="date"><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Age</label></td>
+                    <td><input type="number" name="age" min="18" max="100" required><p>Enter Age</p><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td><input type="radio" name="gender"> <label>Male</label> <input type="radio" name="gender"><label>Female</label> <input type="radio" name="gender"><label>Others</label><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Select Country</label></td>
+                    <td><select>
+                        <option value="">INDIA</option>
+                        <option value="">USA</option>
+                        <option value="">UK</option>
+                        <option value="">CHINA</option>
+                        <option value="">AUSTRALIA</option>
+                        <option value="">JAPAN</option>
+                    </select><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Upload Picture</label></td>
+                    <td><input type="file"><br></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input id="cursor" type="reset">
+                    </td>
+                </tr>
+            </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Details</legend>
+                <label for="">Select Course</label><br>
+                <select>
+                    <option value="">Python Full Stack</option>
+                    <option value="">Java Full Stack</option>
+                    <option value="">Web Development</option>
+                    <option value="">Backend Development</option>
+                    <option value="">Java Developer</option>
+                    <option value="">Python Developer</option>
+                </select><br>
+                <label for="">Delivery Mode</label>
+                <input type="radio" name="Mode">
+                <label>ONLINE</label>
+                <input type="radio" name="Mode">
+                <label>OFFLINE</label>
+                <br>
+                <label for="">INSTITUTE NAME</label>
+                <input type="text" value="TAP ACADEMY" readonly><br>
+                <label for="">Comments</label>
+                <br>
+                <textarea name="" id=""></textarea>
+
+            </fieldset>
+            </div>
+            <div class="container">
+                <button class="cursive-border"><a href="#" style="--color: #6eff3e"><span>Submit</span><i></i></a></button>
+              </div>
+
+        </form>
+        
+    </body>
+</html>
